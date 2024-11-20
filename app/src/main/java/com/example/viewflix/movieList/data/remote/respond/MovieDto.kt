@@ -1,5 +1,5 @@
 package com.example.viewflix.movieList.data.remote.respnod
-
+//DTO data trnsfer object
 data class MovieDto(
     val adult: Boolean?,
     val backdrop_path: String?,

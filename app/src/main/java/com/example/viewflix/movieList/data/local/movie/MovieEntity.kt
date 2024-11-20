@@ -1,11 +1,9 @@
-package com.ahmedapps.moviesapp.movieList.data.local.movie
+package com.example.viewflix.movieList.data.local.movie
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-/**
- * @author Android Devs Academy (Ahmed Guedmioui)
- */
+
 @Entity
 data class MovieEntity(
     val adult: Boolean,
