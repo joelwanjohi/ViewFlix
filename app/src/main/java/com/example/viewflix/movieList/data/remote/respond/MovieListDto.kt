@@ -1,4 +1,4 @@
-package com.ahmedapps.moviesapp.movieList.data.remote.respnod
+package com.example.viewflix.movieList.data.remote.respond
 
 data class MovieListDto(
     val page: Int,
