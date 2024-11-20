@@ -1,4 +1,4 @@
-package com.ahmedapps.moviesapp.movieList.data.remote.respnod
+package com.example.viewflix.movieList.data.remote.respnod
 
 data class MovieDto(
     val adult: Boolean?,
