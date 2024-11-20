@@ -1,11 +1,15 @@
 package com.ahmedapps.moviesapp.movieList.data.remote
 
 import retrofit2.http.GET
+import retrofit2.http.Query
 
 interface MovieApi {
 
-    @GET()
+    @GET("movie/{category}")
     suspend fun getMoviesList(
+        @path("category") category: String,
+        @Query("page") page:Int,
+        @Query("api_key") apikey: String = API_KEY
 
     )
 
