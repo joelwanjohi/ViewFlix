@@ -3,7 +3,7 @@ package com.example.viewflix.movieList.data.local.movie
 import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Upsert
-import com.ahmedapps.moviesapp.movieList.data.local.movie.MovieEntity
+
 
 //Dao data acess object
 @Dao
